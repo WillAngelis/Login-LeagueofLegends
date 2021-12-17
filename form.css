@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-.overlay{
+
+.overlay {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -11,106 +12,128 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.7);
-    z-index: 2; 
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.image{
+
+.image {
     position: relative;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    background-image: url(background.png) ;
-    filter: blur(2px);
+    background-image: url(background.png);
+    filter: blur(4px);
     background-position: center;
 }
-.form-login{
+
+.form-login {
     position: absolute;
     display: flex;
     width: 30em;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
-    z-index: 4;
+    padding: 2rem;
+    z-index: 3;
 }
-form{
+
+form {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-h1{
+
+h1 {
     font-weight: 200;
     font-size: 2em;
     text-align: center;
     margin: 40px;
     color: #fff;
 }
-    
-.forget-form{
-    color:rgb(150, 150, 150);;
+
+.forget-form {
+    color: rgb(150, 150, 150);
+    ;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-form > p{
-    font-size: 14px;
+
+form>p {
+    font-size: 0.9rem;
     margin-left: 5px;
 
 }
-input[type="password"], [type="email"]{
+
+input[type="password"],
+[type="email"] {
     padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid rgb(221, 221, 221);
+    border: 2px solid rgb(221, 221, 221);
     outline: none;
     border-radius: 5px;
 }
-a{
+
+input[type="password"]:focus,
+[type="email"]:focus {
+    border: 2px solid #36fd89;
+}
+
+a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
     color: rgb(150, 150, 150);
 }
-button{
+
+button {
     padding: 15px;
     width: 30em;
-    margin:20px 0;
+    margin: 20px 0;
     align-self: center;
-    border: 1px solid #13b154 ;
-    color: #13b154;
+    border: 1px solid #36fd89;
+    color: #36fd89;
     background: none;
     border-radius: 10px;
-    font-size: 14px ;
+    font-size: 14px;
     cursor: pointer;
     font-weight: 600;
     text-transform: uppercase;
     transition: 600ms all;
-    
-}
-button:hover{
-    color: white;
-    background-color: #13b154;
 
 }
-.social{
+
+button:hover {
+    color: rgb(0, 0, 0);
+    background-color: #36fd89;
+
+}
+
+.social {
     text-align: center;
 }
-.social p{
+
+.social p {
     margin-bottom: 20px;
     font-size: 12px;
     color: rgb(150, 150, 150);
 }
-.social i{
+
+.social i {
     cursor: pointer;
     font-size: 28px;
     margin: 0 10px;
 }
-#face{
+
+#face {
     color: #d6d6d6;
 }
-#twitter{
+
+#twitter {
     color: #d6d6d6;
 }
