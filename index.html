@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,25 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="https://kit.fontawesome.com/5e88aa52d2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <main class="container">
-        <div class="overlay"></div>
-        <div class="image"></div>
-        <section class="form-login">
+        <div class="container__overlay"></div>
+        <div class="container__background"></div>
+        <section class="form">
             <h1>Login to continue </h1>
-                <input type="email" name=""  required  placeholder="Email">
-                <input type="password" name=""  required placeholder="Password">
-            <div class="forget-form">
-                <form action=""><input type="checkbox" name="Remember"><p class="remember">Remember-me</p></form>
-                <a href="#">Forgot Password?</a>
+            <input type="email" name="" required placeholder="Email">
+            <input type="password" name="" required placeholder="Password">
+            <div class="forget">
+                <form action="" class="forget__form">
+                    <div class="forget__box">
+                        <input type="checkbox" name="Remember">
+                        <p class="forget__p">Remember-me</p>
+                    </div>
+                    <a href="#" class="forget__a">Forgot Password?</a>
+                </form>
+                <button type="button">Login</button>
             </div>
-            <button  type="button">Login</button>
             <footer class="social">
                 <p>Or sign up using</p>
                 <i class="fab fa-facebook" id="face"></i>
@@ -29,4 +36,5 @@
         </section>
     </main>
 </body>
+
 </html>
