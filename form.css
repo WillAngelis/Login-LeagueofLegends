@@ -87,6 +87,7 @@ button{
     cursor: pointer;
     font-weight: 600;
     text-transform: uppercase;
+    transition: 600ms all;
     
 }
 button:hover{
@@ -105,10 +106,11 @@ button:hover{
 .social i{
     cursor: pointer;
     font-size: 28px;
+    margin: 0 10px;
 }
 #face{
-    color: #3F5890;
+    color: #d6d6d6;
 }
 #twitter{
-    color: #5EA9EC;
+    color: #d6d6d6;
 }
