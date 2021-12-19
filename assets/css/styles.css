@@ -20,12 +20,11 @@
 
 .container__background {
     position: relative;
-    background-image: url(/assets/imgs/background.png);
+    background-image: url(/img/background.png);
     background-position: 50%;
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
-    filter: blur(4px);
 }
 
 .container__form {
