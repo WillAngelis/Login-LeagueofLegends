@@ -116,6 +116,9 @@
     justify-self: flex-start;
     font-weight: 400;
 }
+.forget__a:hover{
+    color: #2dff84;
+}
 
 .form__btn {
     padding: 1rem;
@@ -124,19 +127,21 @@
     align-self: center;
     color: #000000;
     border: none;
-    background: #2dff84;
+    background: #07e262e5;
     border-radius: 10px;
     font-size: 0.9rem;
     cursor: pointer;
     font-weight: 600;
     text-transform: uppercase;
-    transition: 800ms all;
+    transition: 600ms all;
 
 }
 
 .form__btn:hover {
-    background-color: #29ff829d;
-
+    background-color: #04ff6d;
+}
+.form__btn:active {
+    background-color: #028a3b;
 }
 
 .social {
@@ -153,4 +158,14 @@
     cursor: pointer;
     font-size: 28px;
     margin: 0 10px;
+    transition: 500ms ease-in-out;
+}
+.social__icon--git:hover{
+    color: #ff4e6c;
+}
+.social__icon--face:hover{
+    color:#1877F1;
+}
+.social__icon--twitter:hover{
+    color: rgb(20, 173, 233);
 }
