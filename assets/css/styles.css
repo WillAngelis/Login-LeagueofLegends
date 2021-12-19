@@ -20,8 +20,11 @@
 
 .container__background {
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    background-image: url(/assets/imgs/background.png);
+    background-position: 50%;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
     filter: blur(4px);
 }
 
@@ -56,6 +59,7 @@
 .title__span {
     color: #36fd89;
     font-weight: 600;
+    position: relative;
 }
 
 .form__email,
