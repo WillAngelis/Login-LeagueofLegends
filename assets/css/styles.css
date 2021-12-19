@@ -14,10 +14,6 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
@@ -42,7 +38,7 @@
     z-index: 3;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -59,11 +55,14 @@
     width: 100%;
     box-sizing: border-box;
 }
-.title__span{
+
+.title__span {
     color: #36fd89;
     font-weight: 600;
 }
-.form__email, .form__password{
+
+.form__email,
+.form__password {
     font-size: 1rem;
     width: 100%;
     padding: 20px;
@@ -72,62 +71,70 @@
     outline: none;
     border-radius: 5px;
 }
-.form__email:focus, .form__password:focus {
-    border: 2px solid #36fd89;}
 
-.forget{
+.form__email:focus,
+.form__password:focus {
+    border: 2px solid #36fd89;
+}
+
+.forget {
     color: rgb(150, 150, 150);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.forget__input{
+
+.forget__input {
     accent-color: #36fd89;
 }
-.forget__box{
+
+.forget__box {
     display: flex;
     align-items: center;
 }
-.forget__form{
+
+.forget__form {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-.forget__a, .forget__p {
+
+.forget__a,
+.forget__p {
     font-size: 0.9rem;
     margin-left: 10px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 600;
     color: rgb(150, 150, 150);
 
 }
-.forget__p{
+
+.forget__p {
     justify-self: flex-start;
     font-weight: 400;
 }
 
-button {
-    padding: 15px;
-    width: 30em;
-    margin: 20px 0;
+.form__btn {
+    padding: 1rem;
+    width: 100%;
+    margin: 30px 0;
     align-self: center;
-    border: 1px solid #36fd89;
-    color: #36fd89;
-    background: none;
+    color: #000000;
+    border: none;
+    background: #2dff84;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 0.9rem;
     cursor: pointer;
     font-weight: 600;
     text-transform: uppercase;
-    transition: 600ms all;
+    transition: 800ms all;
 
 }
 
-button:hover {
-    color: rgb(0, 0, 0);
-    background-color: #36fd89;
+.form__btn:hover {
+    background-color: #29ff829d;
 
 }
 
