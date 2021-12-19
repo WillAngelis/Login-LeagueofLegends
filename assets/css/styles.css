@@ -50,7 +50,7 @@
     align-items: center;
 }
 
-.form__title {
+.title__h1 {
     font-weight: 200;
     font-size: 2em;
     text-align: center;
@@ -59,9 +59,21 @@
     width: 100%;
     box-sizing: border-box;
 }
+.title__span{
+    color: #36fd89;
+    font-weight: 600;
+}
 .form__email, .form__password{
     font-size: 1rem;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(221, 221, 221);
+    outline: none;
+    border-radius: 5px;
 }
+.form__email:focus, .form__password:focus {
+    border: 2px solid #36fd89;}
 
 .forget{
     color: rgb(150, 150, 150);
@@ -85,31 +97,15 @@
 .forget__a, .forget__p {
     font-size: 0.9rem;
     margin-left: 10px;
-
-}
-.forget__p{
-    justify-self: flex-start;
-}
-input[type="password"],
-[type="email"] {
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 2px solid rgb(221, 221, 221);
-    outline: none;
-    border-radius: 5px;
-}
-
-input[type="password"]:focus,
-[type="email"]:focus {
-    border: 2px solid #36fd89;
-}
-
-a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
     color: rgb(150, 150, 150);
+
+}
+.forget__p{
+    justify-self: flex-start;
+    font-weight: 400;
 }
 
 button {
