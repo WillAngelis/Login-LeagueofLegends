@@ -20,7 +20,7 @@
 
 .container__background {
     position: relative;
-    background-image: url(./img/background.png);
+    background-image: url(assets/img/background.png);
     background-position: 50%;
     background-size: cover;
     min-height: 100vh;
