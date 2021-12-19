@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    background-image: url(/assets/img/background.png);
+    background-image: url(/assets/imgs/background.png);
     filter: blur(4px);
     background-position: center;
 }
